@@ -120,6 +120,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
+    background: url(../img/thales2.jpg) no-repeat bottom center scroll;
     background-color: #1a2855;
 }
 .boxes {
@@ -222,10 +223,11 @@ a:focus {
     padding-top: 100px;
 }
 .download-section {
+  position: relative;
   width: 100%;
   padding: 50px 0;
   color: #141534;
-  background: url(../img/plane.jpg) no-repeat center center scroll;
+  background: url(../img/thales1.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -312,4 +314,18 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+.linked-img{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+}
+.linked-img span{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
 }
