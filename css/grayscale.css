@@ -123,8 +123,9 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/thales2.jpg) no-repeat bottom center scroll;
+    background: url(../img/thales2.png) no-repeat bottom center scroll;
     background-color: #1a2855;
+    text-shadow: 2px 2px #000;
 }
 .boxes {
     background: url(../img/boxes.jpg) no-repeat bottom center scroll;
@@ -133,7 +134,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
     color:white;
-    text-shadow: 1px 1px #fff;
+    text-shadow: 2px 2px #000;
 }
 
 .intro .intro-body {
