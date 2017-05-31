@@ -104,31 +104,46 @@
                             <a href="dl/EE_PJT15_V2.pdf" download="benchmarking">Télécharger le Benchmark complet</a></small></p>
                     
                     <h2>Solution choisie</h2>
-                    <p>Notre choix s'est porté sur les puces RFID. Elles offrent les avantages suivants :<br><br></p>
-                    <ul class="">
-                            <li>
-                                Gestion de projet
-                            </li>
-                            <li>
-                                Solution
-                            </li>
-                            <li>
-                                Application
-                            </li>
-                            <li>
-                                A propos
-                            </li>
-                    </ul>
-                    <p>Synthèse & pourquoi on a préconisé les puces RFID avec zapette</p>
+                    <p>Notre choix s'est porté sur les puces RFID. Elles offrent les avantages suivants :<br></p>
+                        <h4>Scans multiples et instantanés</h4>
+                    <p>Il est possible de scanner facilement et simultanément un grand nombre de puces (plusieurs centaines par seconde).</p>
+                        <h4>Portée plus importante</h4>
+                    <p>La raquette permet de scanner à une distance de plusieurs mètres.</p>
+                        <h4>Scan de puces masquées</h4>
+                    <p>Grâce à cette solution, l'utilisateur peut scanner les différents objets même s'ils sont à l'intérieur d'un carton. De plus les puces rfid ne peuvent pas s'effacer avec le temps comme peuvent l'être les codes barres et les QR codes.</p>
+                        <h4>Puces réutilisables</h4>
+                    <p>Lorsqu'un objet est jeté, il est retiré de la base de donnée, il n'a donc plus beoin d'un système d'identification. On peut alors récupérer sa puce RFID, changer les informations qu'elle contient et la réutiliser pour un autre objet.</p>
+                        <h4>Prix</h4>
+                    <p>Les puces coûtent entre 5 et 10 centimes unité. Le lecteur est disponible à partir de 100€. Le prix de l'imprimante qui va servir à encrypter les puces est de 300€</p>
+                    <img src ='img/puceRfid.png' alt ='puce RFID'/>
+                    <img src ='img/raquette.jpg' alt ='raquette'/>
                     <br>
                     <h2>Base de données</h2>
                     <p>La base de données a été développé en accord avec les attendus du client et permettant le déploiement de l'application. Cette base de donnée repose sur 
                     le langage mySQL. Sa structure se base sur la banque de données Excel existante au sein de Thales.</p>
                     <br/>
                     <h2>Articulation du système</h2>
+                    <p><small>Le système complet que nous proposons est constitué de 3 composants:<br/>
+                    - Le serveur de Thales pour implementer la base de données<br/>
+                    - Une ou plusieurs tablettes avec l'application dediée installée dessus<br/>
+                    - Un ou plusieurs lecteurs RFID<br/><br/>
+                    De plus, suite à la demande du client, nous prévoyons d'implementer une appplication web sur l'intranet de Thales.<br/><br/>
+                    Voici le schéma du système complet: </small></p>
+                    <img src ='img/systemecomplet.png' alt ='Schema systeme'/>
+                    <p><small><br/> Le mode de connexion de la tablette  au serveur reste à définir parmi les solutions proposées: <br/><br/>
+                    - <strong>Connnexion filaire:</strong><br/> ce choix reste la manière la plus securisée de connecter la tablette mais la praticité est réduite
+                    <br/>
+                    - <strong>Connexion Wifi</strong> : <br/>cette solution nécessite la mise en place d'un brouilleur afin de sécuriser la liaison
+                    <br/>
+                    - <strong>Transfert local</strong> : <br/>afin d'éviter certains problèmes de sécurité, le transfert des données de la tablette se fait localement sur l'intranet
+                    <br/>
+                    <br/>
+                    
+                    
+                    
+                    </small></p>
                     <img src ='img/systeme.png' alt ='Schema utilisation'/>
-                    <p><small>Points abordés : logiciels d'inventaire, codes-barres, QR codes, Puces RFID (à étoffer)<br><br>
-                    Synthsèse & pourquoi on a préconisé les puces RFID avec zapette</small></p>
+                    
                     <h2>Application</h2>
                     <img src ='img/Invent_R.png' alt ='Logo Application' style="width:150px;height:150px;"/>
                     <p><small><br/>L'application conçue pour ce système est décrite en détail dans la page Application.<br/> Une maquette dynamique de l'application est également mise à disposition.<br/><br/>
